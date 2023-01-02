@@ -9,10 +9,65 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 img {
     width: 100px;
 }
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/dalfsen.jpeg");
+    background-size: cover;
+    height: 343px;
+}
+
+.blue-dark-bg {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+.blue-light-bg {
+    background-color: #457b9d;
+    color: #f1faee;
+}
+
+.rounded-borders {
+    border-radius: 16px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#title-hero {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    padding: 6px 12px;
+}
+
+#subtitle-hero {
+    font-size: 19px;
+    font-weight: 700px;
+    font-style: normal;
+    line-height: 22px;
+    padding: 6px 12px;
+}
+
+#activities-section {
+    display: flex;
+}
+
+#guide-section {}
