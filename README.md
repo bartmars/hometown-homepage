@@ -7,6 +7,8 @@ Bart Mars
 ## Deployment
 This repository is being auto-deployed via a [Netlify app](https://astonishing-queijadas-cc6274.netlify.app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d19a7bb5-e0ea-4040-98d8-1ccaa2686236/deploy-status)](https://app.netlify.com/sites/astonishing-queijadas-cc6274/deploys)
+
 ## Requirements
 * Build from scratch
 * Use:
