@@ -44,7 +44,7 @@ img {
 }
 
 .flex-direction-column {
-    flex-direction: column
+    flex-direction: column;
 }
 
 .flex-centered {
@@ -60,12 +60,12 @@ img {
     justify-content: space-around;
 }
 
-.rounded-top-borders {
-    border-radius: 16px 16px 0 0;
-}
-
 .rounded-all-borders {
     border-radius: 16px;
+}
+
+.rounded-borders {
+    border-radius: 10px;
 }
 
 .inline-block {
@@ -132,9 +132,31 @@ img {
     width: 400px;
 }
 
-#guide-text {
+#your-guide-text {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    padding: 0 11px;
+}
+
+#guide-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 11px;
+}
+
+#guide-img {
+    padding: 23px 13px;
+    width: 180px;
+    border-radius: 35px;
+}
+
+#guide-name-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
 }
