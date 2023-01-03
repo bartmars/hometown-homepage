@@ -11,27 +11,14 @@ DARK BLUE: #1D3557
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 img {
     width: 100px;
 }
 
-.container {
-    max-width: 720px;
-    margin: 0 auto;
-}
-
-#hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("images/dalfsen.jpeg");
-    background-size: cover;
-    height: 343px;
-}
-
+/* Backgrounds */
 .blue-dark-bg {
     background-color: #1d3557;
     color: #f1faee;
@@ -42,12 +29,67 @@ img {
     color: #f1faee;
 }
 
-.rounded-borders {
+.light-bg {
+    background-color: #f1faee;
+}
+
+/* Utilities */
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column
+}
+
+.flex-centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-horizontal-centered {
+    justify-content: center;
+}
+
+.flex-jc-space-around {
+    justify-content: space-around;
+}
+
+.rounded-top-borders {
+    border-radius: 16px 16px 0 0;
+}
+
+.rounded-all-borders {
     border-radius: 16px;
 }
 
 .inline-block {
     display: inline-block;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+/* Sections */
+#hero-section {
+    flex-direction: column;
+    background-image: url("images/dalfsen.jpeg");
+    background-size: cover;
+    height: 343px;
 }
 
 #title-hero {
@@ -67,7 +109,32 @@ img {
 }
 
 #activities-section {
-    display: flex;
+    flex-direction: row;
+    padding: 40px 0 40px 0;
 }
 
-#guide-section {}
+#title-activities {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#activities-div {
+    margin-top: 55px;
+}
+
+#guide-section {
+    margin: 50px auto;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#guide-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
