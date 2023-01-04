@@ -23,7 +23,7 @@ This repository is being auto-deployed via a [Netlify app](https://astonishing-q
     * [x] Find a way to use :hover
     * [x] Add a whole new section
 
-
+*I did not tried to change the color palette that was given because in my opinion, its colors matches exactly with my images.
 
 ## Color Reference
 Palette: https://scrimba.com/links/hometown-palette
