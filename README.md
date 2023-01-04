@@ -11,17 +11,19 @@ This repository is being auto-deployed via a [Netlify app](https://astonishing-q
 
 ## Requirements
 * Build from scratch
-* Use:
+* Needs to use:
     * [x] Classes
     * [x] Flexbox
     * [x] Background-image
     * [x] Color Palette
 * Stretch goals:
     * [x] Make it about your own hometown
-    * Different color palette
+    * [ ] Different color palette*
     * [x] Google Font
     * [x] Find a way to use :hover
-    * Add a whole new section
+    * [x] Add a whole new section
+
+
 
 ## Color Reference
 Palette: https://scrimba.com/links/hometown-palette

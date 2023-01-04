@@ -120,6 +120,26 @@ img {
     padding: 6px 12px;
 }
 
+#history-section {
+    padding: 40px 0
+}
+
+#history-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 11px;
+}
+
+.history-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 11px;
+}
+
 #activities-section {
     flex-direction: row;
     padding: 40px 0 40px 0;
