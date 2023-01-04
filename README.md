@@ -27,6 +27,7 @@ This repository is being auto-deployed via a [Netlify app](https://astonishing-q
 
 ## Color Reference
 Palette: https://scrimba.com/links/hometown-palette
+(does not match colors below, probably because of wrong reference color palette)
 
 * RED: `#E63946`
 * LIGHT: `#F1FAEE`
